@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Artistry Haven</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Artistry Haven</h1>
+
+<!-- Sign In Button -->
+<button id="signInButton">Sign In</button>
+<button id="signOutButton" style="display: none;">Sign Out</button>
+
+  
+  <header>
+    <!-- Header content -->
+    <div class="hero">
+      <!-- Hero section content -->
+      <h2>Welcome to Artistry Haven</h2>
+      <p>Discover, buy, and sell fine art.</p>
+    </div>
+    <nav>
+      <a href="#abstract">Abstract</a>
+      <a href="#impressionism">Impressionism</a>
+      <a href="#surrealism">Surrealism</a>
+      <a href="#realism">Realism</a>
+      <a href="#modern">Modern Art</a>
+    </nav>
+  </header>
+  
+  <!-- Cart Button -->
+  <button id="cartButton">Cart</button>
+
+  <!-- Cart Modal -->
+  <div id="cartModal" class="modal">
+    <div class="modal-content">
+      <span id="cartModalClose" class="close">&times;</span>
+      <div id="cartModalContent">
+        <!-- Cart items will be displayed here -->
+      </div>
+      <button id="buyButton" class="buy-button">Buy</button>
+    </div>
+  </div>
+
+  <!-- Container for Abstract Artworks -->
+  <section id="abstract" class="category-container">    
+    <h2>Abstract Art</h2>
+    <p>Abstract art uses a visual language of shape, form, color, and line to create a composition which may exist with a degree of independence from visual references in the world.</p>
+    <div id="abstract-artworks" class="artworks-container">
+      <!-- Abstract artworks will be displayed here -->
+    </div>
+  </section>
+
+  <!-- Container for Impressionism Artworks -->
+  <section id="impressionism" class="category-container">
+    <h2>Impressionism</h2>
+    <p>Impressionism is a 19th-century art movement characterized by relatively small, thin, yet visible brush strokes, open composition, emphasis on accurate depiction of light in its changing qualities, and ordinary subject matter.</p>
+    <div id="impressionism-artworks" class="artworks-container">
+      <!-- Impressionism artworks will be displayed here -->
+    </div>
+  </section>
+
+  <!-- Container for Surrealism Artworks -->
+  <section id="surrealism" class="category-container">
+    <h2>Surrealism</h2>
+    <p>Surrealism is a cultural movement that began in the early 1920s, and is best known for its visual artworks and writings. Artists painted unnerving, illogical scenes, sometimes with photographic precision, creating strange creatures from everyday objects, and developing painting techniques that allowed the unconscious to express itself.</p>
+    <div id="surrealism-artworks" class="artworks-container">
+      <!-- Surrealism artworks will be displayed here -->
+    </div>
+  </section>
+
+  <!-- Container for Realism Artworks -->
+  <section id="realism" class="category-container">
+    <h2>Realism</h2>
+    <p>Realism in the arts is the attempt to represent subject matter truthfully, without artificiality and avoiding artistic conventions, or implausible, exotic, and supernatural elements. It is associated with a response to the Industrial Revolution and a desire to present ordinary people and everyday activities.</p>
+    <div id="realism-artworks" class="artworks-container">
+      <!-- Realism artworks will be displayed here -->
+    </div>
+  </section>
+
+  <!-- Container for Modern Art Artworks -->
+  <section id="modern" class="category-container">
+    <h2>Modern Art</h2>
+    <p>Modern art includes artistic work produced during the period extending roughly from the 1860s to the 1970s, and denotes the styles and philosophy of the art produced during that era.</p>
+    <div id="modern-artworks" class="artworks-container">
+      <!-- Modern Art artworks will be displayed here -->
+    </div>
+  </section>
+
+  <!-- Artworks Container -->
+  <div id="artworks-container" class="artworks-container">
+    <!-- Artworks will be displayed here -->
+  </div>
+
+  <!-- Sell Artwork Button -->
+  <div class="sell-artwork-container">
+    <button id="sellArtworkButton">Sell Artwork</button>
+  </div>
+
+  <!-- Sell Artwork Modal -->
+  <div id="sellModal" class="modal">
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      <div id="sellFormContainer">
+        <h2>Sell Artwork</h2>
+        <form id="sellForm">
+          <!-- Sell artwork form content -->
+          <label for="title">Title:</label>
+          <input type="text" id="title" name="title" required><br><br>
+          <label for="artist">Artist:</label>
+          <input type="text" id="artist" name="artist" required><br><br>
+          <label for="description">Description:</label><br>
+          <textarea id="description" name="description" rows="4" required></textarea><br><br>
+          <label for="category">Category:</label>
+          <select id="category" name="category" required>
+            <option value="" disabled selected>Select a category</option>
+            <option value="abstract">Abstract</option>
+            <option value="impressionism">Impressionism</option>
+            <option value="surrealism">Surrealism</option>
+            <option value="realism">Realism</option>
+            <option value="modern">Modern Art</option>
+          </select><br><br>
+          <label for="price">Price:</label>
+          <input type="number" id="price" name="price" required><br><br>
+          <label for="image">Image URL:</label>
+          <input type="text" id="image" name="image" required><br><br>
+          <button type="submit">Submit</button>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <!-- Sign In Modal -->
+  <div id="signInModal" class="modal">
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      <div id="signInFormContainer">
+        <h2>Sign In</h2>
+        <form id="signInForm">
+          <!-- Sign-in form content -->
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required><br><br>
+          <label for="username">Username:</label>
+          <input type="text" id="username" name="username" required><br><br>
+          <label for="password">Password:</label>
+          <input type="password" id="password" name="password" required><br><br>
+          <button type="submit">Sign In</button>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <!-- Footer content -->
+    <h3>Contact Info</h3>
+    <div class="contact-info">
+        <p>Email: example@example.com</p>
+        <p>Address: 1234 Art Street, City, Country</p>
+        <p>Phone: +1 (123) 456-7890</p>
+    </div>
+  </footer>
+  <script src="script.js"></script>
+  <script src="server.js"></script>
+</body>
+</html>
