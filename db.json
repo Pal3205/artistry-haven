@@ -1,0 +1,147 @@
+{
+  "artwork": [
+    {
+      "id": "1",
+      "title": "Composition VIII",
+      "artist": "Wassily Kandinsky",
+      "description": "Composition VIII is one of the most famous works by Russian painter Wassily Kandinsky. It is a prime example of his abstract style, featuring bold colors, geometric shapes, and dynamic movement.",
+      "image": "https://www.guggenheim.org/wp-content/uploads/1923/01/37.262_ph_web-1.jpg",
+      "category": "abstract",
+      "price": 2000
+    },
+    {
+      "id": "2",
+      "title": "No. 5, 1948",
+      "artist": "Jackson Pollock",
+      "description": "No. 5, 1948 is a seminal work by American artist Jackson Pollock, known for his unique drip painting technique. This piece is a prime example of his abstract expressionist style.",
+      "image": "https://www.jackson-pollock.org/assets/img/paintings/number-5.jpg",
+      "category": "abstract",
+      "price": 2500
+    },
+    {
+      "id": "3",
+      "title": "Impression, Sunrise",
+      "artist": "Claude Monet",
+      "description": "Impression, Sunrise is a famous painting by Claude Monet, often considered the cornerstone of the Impressionist movement. It depicts the port of Le Havre at sunrise.",
+      "image": "https://cdn-ikpnflj.nitrocdn.com/oiHixteTMfLkrVSAyxClHjcFFrnJKJrV/assets/images/optimized/wp-content/uploads/2023/07/18af825798651c9dac5ce787f68b46b0.dezoomify-result-27-870x673.jpg",
+      "category": "Impressionism",
+      "price": 3000
+    },
+    {
+      "id": "4",
+      "title": "Starry Night",
+      "artist": "Vincent van Gogh",
+      "description": "Starry Night is one of the most famous works by Dutch painter Vincent van Gogh. This masterpiece captures the night sky over the village of Saint-Rémy-de-Provence.",
+      "image": "https://cdn.britannica.com/78/43678-050-F4DC8D93/Starry-Night-canvas-Vincent-van-Gogh-New-1889.jpg?w=300",
+      "category": "Impressionism",
+      "price": 3500
+    },
+    {
+      "id": "5",
+      "title": "The Persistence of Memory",
+      "artist": "Salvador Dalí",
+      "description": "The Persistence of Memory is an iconic work by Spanish surrealist Salvador Dalí. This painting features melting clocks, a hallmark of Dalí's dreamlike imagery.",
+      "image": "https://d7hftxdivxxvm.cloudfront.net/?quality=80&resize_to=width&src=https%3A%2F%2Fd32dm0rphc51dk.cloudfront.net%2FE0TteNp9GKkJn6JacrilBw%2Fnormalized.jpg&width=910",
+      "category": "Surrealism",
+      "price": 4000
+    },
+    {
+      "id": "6",
+      "title": "The Elephants",
+      "artist": "Salvador Dalí",
+      "description": "The Elephants is another notable work by Salvador Dalí, showcasing his fascination with surreal and fantastical elements.",
+      "image": "https://www.passion-estampes.com/deco/affiches/dali/dalielephants.jpg",
+      "category": "Surrealism",
+      "price": 4500
+    },
+    {
+      "id": "7",
+      "title": "The Gleaners",
+      "artist": "Jean-François Millet",
+      "description": "The Gleaners is a renowned work by French artist Jean-François Millet. It depicts peasant women gleaning the remains of a wheat field.",
+      "image": "https://img.kingandmcgaw.com/imagecache/3/0/si-301565.jpg_ihcm-38.20_iwcm-50.00_fls-880603L.tif_fts-880603T.tif_mc-ffffff_fwcm-1.50_tmwcm-5.00_bmwcm-5.00_lmwcm-5.00_rmwcm-5.00_maxdim-1000_en_easyart___iar-1.jpg",
+      "category": "Realism",
+      "price": 5000
+    },
+    {
+      "id": "8",
+      "title": "The Stone Breakers",
+      "artist": "Gustave Courbet",
+      "description": "The Stone Breakers is a painting by Gustave Courbet, illustrating the harsh realities of rural labor in 19th-century France.",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/Gustave_Courbet_-_The_Stonebreakers_-_WGA05457.jpg/300px-Gustave_Courbet_-_The_Stonebreakers_-_WGA05457.jpg",
+      "category": "Realism",
+      "price": 5500
+    },
+    {
+      "id": "9",
+      "title": "The Scream of Nature",
+      "artist": "Yinka Shonibare",
+      "description": "The Scream of Nature is a thought-provoking sculpture that explores themes of identity and colonial history.",
+      "image": "https://www.edvardmunch.org/assets/img/paintings/the-scream.jpg",
+      "category": "modern",
+      "price": 5000
+    },
+    {
+      "id": "10",
+      "title": "Black Square",
+      "artist": "Kazimir Malevich",
+      "description": "Black Square is a pivotal work in the history of modern art, created by Russian artist Kazimir Malevich. It represents a departure from traditional representational art.",
+      "image": "https://media.tate.org.uk/aztate-prd-ew-dg-wgtail-st1-ctr-data/images/malevich5_0_EI2bD0b.width-840.jpg",
+      "category": "modern",
+      "price": 6500
+    },
+    {
+      "id": 15,
+      "title": "Hemlock",
+      "artist": "Joan Mitchell",
+      "description": "In Hemlock, the variations of short and long brushstrokes as well as the alteration between flashes of blue or green paint and larger areas of milky white create a sense of rhythm and movement. The white paint appears both behind and on top of the other colors, which blurs the definition of foreground and background—a stylistic hallmark of Mitchell’s work throughout her career. Although the horizontal green slashes in Hemlock might bring to mind a hemlock tree, Mitchell titled the work after it was completed. ",
+      "image": "https://whitneymedia.org/assets/artwork/363/58_20_cropped.jpeg",
+      "category": "abstract",
+      "price": 4500
+    },
+    {
+      "id": 16,
+      "title": "Luncheon of the Boating Party",
+      "artist": "Pierre-Auguste Renoir",
+      "description": "It depicts a group of friends enjoying a leisurely lunch on a balcony overlooking the Seine River. The painting is known for its vibrant colors, lively composition, and sense of joie de vivre. ",
+      "image": "https://www.phillipscollection.org/sites/default/files/styles/feature_extra_large_no_crop_1200_/public/collection/1637.jpg?itok=XH83pQkf",
+      "category": "impressionism",
+      "price": 5000
+    },
+    {
+      "id": 13,
+      "title": "Joan Miró",
+      "artist": "Joan Miró",
+      "description": "The Harlequin’s Carnival focuses on a fragmented harlequin at a carnival scene. The color palette features primary colors against a grey background. It exemplifies the symbolism and free association of Surrealism with disconnected elements that come together to form a cohesive piece. ",
+      "image": "https://cdn.thecollector.com/wp-content/uploads/2020/06/joan-miro-carnival-of-harlequin-1924-25.jpg?width=1200&quality=55",
+      "category": "surrealism",
+      "price": 3560
+    },
+    {
+      "id": 14,
+      "title": "La rencontre (Bonjour Monsieur Courbet) ",
+      "artist": "Gustave Courbet",
+      "description": "It was a greeting amongst war troops who were advocates of risk, flair, and fearlessness and had the rare ability to push ahead of the enemy lines and conquer battles. ",
+      "image": "https://www.theartist.me/wp-content/uploads/2019/10/Gustave-Courbet-Bonjour-Monsieur-Courbet.jpg",
+      "category": "realism",
+      "price": 2900
+    },
+    {
+      "id": 15,
+      "title": "From the Lake",
+      "artist": "Georgia O’Keeffe",
+      "description": "The dynamic arrangement of forms suggests the search for an abstract equivalent from the forces of nature that motivated O'Keeffe's pictorial imagination.",
+      "image": "https://vitruvius.museumseven.com/render/600-600@1/dp-482313-30.jpg",
+      "category": "modern",
+      "price": 8700
+    }
+  ],
+  "users": [
+    {
+      "id": "6fa5",
+      "email": "example@example.com",
+      "username": "Vince Gogh",
+      "password": "1234"
+    }
+  ]
+}
